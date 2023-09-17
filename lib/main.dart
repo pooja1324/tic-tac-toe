@@ -13,6 +13,7 @@ class TicTacToeApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      title: 'Tic Tac Toe',
         debugShowCheckedModeBanner:false,
       theme: ThemeData(fontFamily: 'Caveat'),
       home: BlocProvider(
